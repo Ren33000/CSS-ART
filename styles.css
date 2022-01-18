@@ -53,4 +53,106 @@
     background-color: black;
 }
 
- 
+.eyes {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: black;
+    border-radius: 50%;
+    bottom: -15vmin;
+    right: 18vmin;
+    box-shadow: 13vmin 0 black;
+}
+
+.cheeks {
+    position: absolute;
+    width: 5vmin;
+    height: 2vmin;
+    background-color: red;
+    border-radius: 50%;
+    top: 7vmin;
+    left: 2.5vmin;
+    opacity: 20%;
+    box-shadow: 13.5vmin 0 red;
+}
+
+.mouth {
+    position: absolute;
+    width: 4vmin;
+    height: 4vmin;
+    border-radius: 40%;
+    top: 5vmin;
+    left: 10vmin;
+    background-color: transparent;
+    border-top: 1vmin solid black;
+}
+
+.cactus {
+    position: absolute;
+    width: 15vmin;
+    height: 30vmin;
+    background-color: #799351;
+    border-radius: 45%;
+    top: 15vmin;
+    left: 25vmin;
+    border: 0.5vmin solid black;
+}
+
+.cactus::before {
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 30vmin; 
+    background-color: transparent;
+    border-radius: 50%;
+    border-right: 1vmin solid #335d2d;
+    left: 5vmin;
+}
+
+.cactus::after {
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 30vmin; 
+    background-color: transparent;
+    border-radius: 50%;
+    border-left: 1vmin solid #335d2d;
+    left: 3vmin;
+}
+
+.cactusSmall {
+    position: absolute;
+    width: 17vmin;
+    height: 20vmin;
+    background-color: #799351;
+    border-radius: 45%;
+    border: 0.5vmin solid black;
+    right: 25vmin;
+}
+
+.cactusSmall::before {
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 20vmin; 
+    background-color: transparent;
+    border-radius: 50%;
+    border-right: 1vmin solid #335d2d;
+    left: 6vmin;
+}
+
+.cactusSmall::after {
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 20vmin; 
+    background-color: transparent;
+    border-radius: 50%;
+    border-left: 1vmin solid #335d2d;
+    left: 4vmin;
+}
+
+
+
+
+
